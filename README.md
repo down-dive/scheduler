@@ -1,11 +1,11 @@
 # Work Day Scheduler 
 
 [- Introduction](#introductions)
-## Purpose
+[- Purpose](#purpose)
 [- Describtion](#describtion)
-## Build with
-## Credits
-## Copyright
+[- Built with](#built-with)
+[- Credits](#credits)
+[- Copyright](#copyright)
 
 ## Introduction
 Work Day Scheduler is a tool for planning working day. It provides time block for each hour of a working day.
