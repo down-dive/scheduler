@@ -9,12 +9,22 @@ var input3 = $("#input6")
 var input4 = $("#input7")
 var input5 = $("#input8")
 
+var nineAM = document.querySelector("#input0")
+var tenAM = document.querySelector("#input1")
+var elevenAM = document.querySelector("#input2")
+var twelvePM = document.querySelector("#input3")
+var onePM = document.querySelector("#input4")
+var twoPM = document.querySelector("#input5")
+var threePM = document.querySelector("#input6")
+var fourPM = document.querySelector("#input7")
+var fivePM = document.querySelector("#input8")
+
 
 var currentTime = moment();
 currentDate.textContent = currentTime.format("ddd, MMMM Do");
 
 
-console.log(currentTime.format("h"))
+// console.log(currentTime.format("h"))
 
 switch (parseInt(currentTime.format("h"))) {
     case 9:
@@ -136,6 +146,38 @@ $("#btn7").on("click", () => {
 $("#btn8").on("click", () => {
     localStorage.setItem("5pm", input5.val())
 })
+
+var a = localStorage.getItem("9am");
+console.log(a)
+nineAM.value = a;
+var b = localStorage.getItem("10am");
+console.log(b)
+tenAM.value = b;
+var c = localStorage.getItem("11am");
+console.log(c)
+elevenAM.value = c;
+var d = localStorage.getItem("12pm");
+console.log(d)
+twelvePM.value = d;
+var e = localStorage.getItem("1pm");
+console.log(e)
+onePM.value = e;
+var f = localStorage.getItem("2pm");
+console.log(f)
+twoPM.value = f;
+var g = localStorage.getItem("3pm");
+console.log(g)
+threePM.value = g;
+var h = localStorage.getItem("4pm");
+console.log(h)
+fourPM.value = h;
+var i = localStorage.getItem("5pm");
+console.log(i)
+fivePM.value = i;
+
+// console.log(tenAM)
+// input10.appendChild(tenAM);
+
 // GIVEN I am using a daily planner to create a schedule
 // WHEN I open the planner
 // THEN the current day is displayed at the top of the calendar
