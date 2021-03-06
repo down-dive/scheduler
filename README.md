@@ -14,7 +14,7 @@ Enter and monitor daily events in a color interactive display. Where green color
 3. Each time block is color-coded to indicate whether it is in the past, present, or future
 ![](./assets/images/3.png)
 4. User can click on a time block and enter an event
-
+![](./assets/images/4.png)
 5. User can click on a save button and that event is saved in local storage
 ![](./assets/images/5.png)
 6. After refreshing the page saved event persist
