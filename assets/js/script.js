@@ -148,31 +148,22 @@ $("#btn8").on("click", () => {
 })
 
 var a = localStorage.getItem("9am");
-console.log(a)
 nineAM.value = a;
 var b = localStorage.getItem("10am");
-console.log(b)
 tenAM.value = b;
 var c = localStorage.getItem("11am");
-console.log(c)
 elevenAM.value = c;
 var d = localStorage.getItem("12pm");
-console.log(d)
 twelvePM.value = d;
 var e = localStorage.getItem("1pm");
-console.log(e)
 onePM.value = e;
 var f = localStorage.getItem("2pm");
-console.log(f)
 twoPM.value = f;
 var g = localStorage.getItem("3pm");
-console.log(g)
 threePM.value = g;
 var h = localStorage.getItem("4pm");
-console.log(h)
 fourPM.value = h;
 var i = localStorage.getItem("5pm");
-console.log(i)
 fivePM.value = i;
 
 // console.log(tenAM)
