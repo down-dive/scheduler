@@ -1,6 +1,6 @@
 # Work Day Scheduler 
 
-(Introduction)[##Introductions]
+[- Introduction](#Introductions)
 ## Purpose
 ## Describtion
 ## Build with
