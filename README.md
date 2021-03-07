@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Work Day Scheduler 
 
 [- Introduction](#introductions)
@@ -50,3 +51,6 @@ Side server API's like:
 
 ## Copyright
 Copyright (c) 2021 Yevgeniya Terlyuk
+=======
+# work-day-scheduler
+>>>>>>> aaf84dea01718ca213a924c6c674aaceb9737e00
