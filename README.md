@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Work Day Scheduler 
 
-[- Introduction](#introductions)
+[- Introduction](#introduction)
 [- Purpose](#purpose)
 [- Describtion](#describtion)
 [- Built with](#built-with)
