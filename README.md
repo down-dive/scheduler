@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Work Day Scheduler 
 
 [- Introduction](#introductions)
@@ -8,7 +7,6 @@
 [- Credits](#credits)
 [- Copyright](#copyright)
 
-## Introduction
 Work Day Scheduler is a tool for planning working day. It provides time block for each hour of a working day.
 
 ## Purpose
@@ -51,6 +49,3 @@ Side server API's like:
 
 ## Copyright
 Copyright (c) 2021 Yevgeniya Terlyuk
-=======
-# work-day-scheduler
->>>>>>> aaf84dea01718ca213a924c6c674aaceb9737e00
