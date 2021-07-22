@@ -1,56 +1,39 @@
-<<<<<<< HEAD
-# Work Day Scheduler 
+# Work Day Scheduler
 
-[- Introduction](#introduction)
-[- Purpose](#purpose)
-[- Describtion](#describtion)
-[- Built with](#built-with)
-[- Credits](#credits)
-[- Copyright](#copyright)
+The main purpose of this project is to create a "daily planner tool" that enables users to save events for each hour of the day. The time blocks are color-coded to indicate whether they are past, present or future.
 
-## Introduction
-Work Day Scheduler is a tool for planning working day. It provides time block for each hour of a working day.
+## Task List
 
-## Purpose
-Enter and monitor daily events in a color interactive display. Where green colors presents future, grey presents past and red presents present moment. 
+- [x] Make user interface style clean and polished
+- [x] Dynamically change HTML and CSS using JavaScript
+- [x] Display current date at the top of calendar
+- [x] Display time blocks for standard business hours (9 a.m to 5 p.m.)
+- [x] Make time blocks color-coded to indicate whether it is past, present or future
+- [x] Enable users to add tasks to each time block
+- [x] Enable users to save tasks into localStorage
 
-## Describtion
-1. As the user opens up a page he is presented with a current day, date and a month
+## Tech/framework used
+* HTML
+* CSS
+* JavaScript
 
-![](./assets/images/1.png)
+## User Story
 
-2. As the user scrools down he is presented with time blocks for standard business hours
+As an employee with a busy schedule, I want to add important events to a daily planner, so that I can manage my time effectively.
 
-![](./assets/images/2.png)
+## Acceptance Criteria
 
-3. Each time block is color-coded to indicate whether it is in the past, present, or future
+* When I open the planner,then the current day is displayed at the top of the calendar
+* When I scroll down, then I am presented with time blocks for standard business hours
+* When I view the time blocks for that day, then each time block is color-coded to indicate whether it is in the past, present, or future
+* When I click into a time block, then I can enter an event
+* When I click the save button for that time block, then the text for that event is saved in local storage
+* When I refresh the page, then the saved events persist
 
-![](./assets/images/3.png)
+## Link to Deployed Application
+https://down-dive.github.io/work-day-scheduler/
 
-4. User can click on a time block and enter an event
+## Screenshot
+Here is the snapshot of the website:
 
-![](./assets/images/4.png)
-
-5. User can click on a save button and that event is saved in local storage
-
-![](./assets/images/5.png)
-
-6. After refreshing the page saved event persist
-
-![](./assets/images/6.png)
-
-## Build with
-Side server API's like:
-- Bootstrap
-- jQueary
-- Moment.js 
-
-## Credits
-- my tutor Dru Sanchez
-- TA Artur Markov
-
-## Copyright
-Copyright (c) 2021 Yevgeniya Terlyuk
-=======
-# work-day-scheduler
->>>>>>> aaf84dea01718ca213a924c6c674aaceb9737e00
+![alt="work-day-scheduler"](./assets/images/work-scheduler-demo.gif)
