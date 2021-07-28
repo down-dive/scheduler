@@ -31,7 +31,7 @@ As an employee with a busy schedule, I want to add important events to a daily p
 * When I refresh the page, then the saved events persist
 
 ## Link to Deployed Application
-https://down-dive.github.io/work-day-scheduler/
+https://down-dive.github.io/scheduler/
 
 ## Screenshot
 Here is the snapshot of the website:
